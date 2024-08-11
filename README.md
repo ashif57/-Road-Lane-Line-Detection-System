@@ -21,24 +21,6 @@ This project implements a lane detection system using Python and OpenCV. It proc
 
 
 
-## Usage
-
-### Running Lane Detection on a Video
-
-To run lane detection on a video file, update the `video_path` in `main.py` and run:
-
-\`\`\`sh
-python main.py
-\`\`\`
-
-### Running Lane Detection on an Image
-
-To run lane detection on a single image, uncomment the `process_image(image_path)` lines in `main.py`, set the correct path to the image, and run:
-
-\`\`\`sh
-python main.py
-\`\`\`
-
 ### Adjusting Parameters
 
 - **Region of Interest (ROI):** Adjust the ROI vertices in the `process_frame` function in `lane_detection.py` to fine-tune which part of the frame is analyzed for lanes.
